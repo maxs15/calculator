@@ -20,6 +20,7 @@ bower install
 ```
 - Start a mongodb server (database called 'calculator' by default)
 - Launch the server
+
 ```shell
 grunt serve
 ```
