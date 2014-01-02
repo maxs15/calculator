@@ -5,11 +5,20 @@ Little calculator using Coffeescript, Angular.js, Jade, Stylus and Express.js + 
 
 ## Installation
 - Install grunt-cli globally if you don't already have it
-	-> npm install grunt-cli -g
+```shell
+npm install grunt-cli -g
+```
+- Install packages
+```shell
+npm install
+bower install
+```
 - Start a mongodb server (database called 'calculator' by default)
 - Launch the server -> grunt serve
 
 ## Tests
 
 Tests using karma - mocha - chai
--> grunt test
+```shell
+grunt test
+```
